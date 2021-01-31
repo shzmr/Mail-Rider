@@ -1,5 +1,5 @@
-# GGJ2021
-A game for The Global Game Jam 2021, in ~48 hours.
+# Mail Rider
+A game for The Global Game Jam 2021, made in ~48 hours.
 
 [Play the game here](https://globalgamejam.org/2021/games/mail-rider-0)
 
