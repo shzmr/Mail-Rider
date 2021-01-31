@@ -1,5 +1,5 @@
 # GGJ2021
-A game for The Global Game Jam 2021 
+A game for The Global Game Jam 2021, in ~48 hours.
 
 The "Wild Anomaly" team:
 
