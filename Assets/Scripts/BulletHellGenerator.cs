@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletHellGenerator : MonoBehaviour {
+public class BulletHellGenerator : Shooting {
 
     public GameObject projectile; // projectile to be shot
     GameObject temp;
@@ -17,6 +17,7 @@ public class BulletHellGenerator : MonoBehaviour {
     void Update () {
         if (canGenerate) {
             temp = Instantiate (projectile, gameObject.transform.position, gameObject.transform.rotation);
+            temp.transform.parent = gameObject.transform;
             Destroy (temp, 6);
             canGenerate = false;
             StartCoroutine (ShootingCooldown ());

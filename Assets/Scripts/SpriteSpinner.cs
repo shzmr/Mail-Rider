@@ -7,10 +7,8 @@ public class SpriteSpinner : MonoBehaviour {
     [Header ("Speed Settings")]
     [SerializeField]
     float spinSpeed = 500f;
-    [SerializeField]
-    float baseSpinAmount = 20f;
 
-    [Header ("Projectile Direction Side")]
+    [Header ("Spinning Side Settings")]
     public float switchSideTimer = 1f; // the time between each side switch
     public bool enableSwitch = false; // enable the switch shooting side mechanic
     bool switchSide = true; // for internal coroutine purposes
@@ -19,11 +17,11 @@ public class SpriteSpinner : MonoBehaviour {
         transform.Rotate (0, 0, spinSpeed * Time.deltaTime);
         if (switchSide & enableSwitch) {
             switchSide = !switchSide;
-            StartCoroutine (SwitchShootingSide ());
+            StartCoroutine (switchSpinningSide ());
         }
     }
 
-    IEnumerator SwitchShootingSide () {
+    IEnumerator switchSpinningSide () {
         yield return new WaitForSeconds (switchSideTimer);
 
         switchSide = !switchSide;

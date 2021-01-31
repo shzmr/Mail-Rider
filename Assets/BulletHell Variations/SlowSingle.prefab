@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2428608998146511054}
   - component: {fileID: 2428608998146511053}
   - component: {fileID: 2428608998146511052}
+  - component: {fileID: 2051702517038120226}
   m_Layer: 0
   m_Name: SlowSingle
   m_TagString: Untagged
@@ -60,6 +61,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spinSpeed: 140
-  baseSpinAmount: 20
   switchSideTimer: 1.2
   enableSwitch: 1
+--- !u!114 &2051702517038120226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2428608998146511048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f6ce960e1657f47b4a437bbf4906ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalLimit: 4
+  verticalMoveSpeed: 1
+  horizontalMoveSpeed: 1

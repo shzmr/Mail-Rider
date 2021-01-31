@@ -1,0 +1,104 @@
+
+The Mailrider Broken.png
+size: 1386,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm 2_Man
+  rotate: true
+  xy: 743, 11
+  size: 150, 206
+  orig: 150, 206
+  offset: 0, 0
+  index: -1
+Arm_Man
+  rotate: true
+  xy: 1247, 303
+  size: 107, 137
+  orig: 107, 137
+  offset: 0, 0
+  index: -1
+Face 1_Man
+  rotate: false
+  xy: 1126, 24
+  size: 119, 137
+  orig: 119, 137
+  offset: 0, 0
+  index: -1
+Googles_Man
+  rotate: true
+  xy: 951, 16
+  size: 145, 67
+  orig: 145, 67
+  offset: 0, 0
+  index: -1
+Hand_Man
+  rotate: true
+  xy: 1311, 58
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+Hat_Man
+  rotate: true
+  xy: 564, 6
+  size: 155, 177
+  orig: 155, 177
+  offset: 0, 0
+  index: -1
+Mailbox
+  rotate: true
+  xy: 2, 11
+  size: 520, 560
+  orig: 520, 560
+  offset: 0, 0
+  index: -1
+Scarf 1_Man
+  rotate: true
+  xy: 1247, 47
+  size: 64, 62
+  orig: 64, 62
+  offset: 0, 0
+  index: -1
+Wing 1_Man
+  rotate: true
+  xy: 905, 163
+  size: 368, 331
+  orig: 368, 331
+  offset: 0, 0
+  index: -1
+Wing 2_MAn
+  rotate: true
+  xy: 564, 163
+  size: 368, 339
+  orig: 368, 339
+  offset: 0, 0
+  index: -1
+body_Man
+  rotate: true
+  xy: 1247, 113
+  size: 188, 131
+  orig: 188, 131
+  offset: 0, 0
+  index: -1
+eyes closed_Man
+  rotate: true
+  xy: 1247, 412
+  size: 119, 137
+  orig: 119, 137
+  offset: 0, 0
+  index: -1
+moustashe
+  rotate: true
+  xy: 1247, 2
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+scarf 2_Man
+  rotate: false
+  xy: 1020, 20
+  size: 104, 141
+  orig: 104, 141
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6745551725298489678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6745551725298489675}
+  - component: {fileID: 6745551725298489677}
+  - component: {fileID: 2575112330669595779}
+  - component: {fileID: 1798003492513695510}
+  m_Layer: 0
+  m_Name: FeatherLike
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6745551725298489675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745551725298489678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 10.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6745551725298489677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745551725298489678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e849d5d89d48b9d4c9fe665eadc8f2cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projPrefab: {fileID: 4486687384813664666, guid: 184c91c7c2792974fbffa8dcdb336da9, type: 3}
+  projCooldown: 0.7
+  projPerShot: 1
+  angleOffset: 10
+  enableMultiple: 0
+  enableSpinning: 0
+  spinSpeed: 200
+  offsetX: 1000
+  offsetY: 200
+--- !u!114 &2575112330669595779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745551725298489678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f6ce960e1657f47b4a437bbf4906ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalLimit: 4
+  verticalMoveSpeed: 0
+  horizontalMoveSpeed: 5
+  open: {fileID: 0}
+--- !u!114 &1798003492513695510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745551725298489678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f6ce960e1657f47b4a437bbf4906ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalLimit: 4
+  verticalMoveSpeed: 1
+  horizontalMoveSpeed: 1
+  open: {fileID: 0}
